@@ -1,4 +1,4 @@
-<!-- ## REQUIRED
+## REQUIRED
 
 * Setup an API with a project structure like:
 
@@ -18,14 +18,14 @@
     * Remember to export your router with `module.exports`.
 * In `routes/index.js`, import the `chirps` router and add it to a new router. -->
   <!-- * Use `app.use` with the `/chirps` route to add to the root `api` router.
-  * Export the router. -->
+  * Export the router.
 * In `server.js`, import the routes folder (`./routes`).
   * Add the `api` router to the express app with the path `/api`.
 * Test all of your methods using Postman ([https://www.getpostman.com/]())
 
 ## ADVANCED
 
-<!-- * Create an `index.html`, `styles.css`, and `app.js` file in the `client` folder. -->
+* Create an `index.html`, `styles.css`, and `app.js` file in the `client` folder.
   * Code an app that uses jQuery to call your API and displays chirps.
     * Create a form that lets you create new chirps
       * Do not use a form submit (you only need the inputs and not necessarily a form!)
