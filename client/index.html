@@ -13,14 +13,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src='app.js'></script>
 </head>
 
 <body>
+    <div class='container'>
+        <br>
+        <div class='jumbotron'>
+            <h1 class='display-4'>Send Message</h1>
+            <br>
+            <input id='user' class='form-control' placeholder='Name' />
+            <br>
+            <input id='message' class='form-control' placeholder='Message' />
+            <br>
+            <button id='send' class='btn btn-success'>Send</button>
+        </div>
+        <div id='chirps'>
 
+        </div>
+    </div>
+    
 </body>
 
 </html>
